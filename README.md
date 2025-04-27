@@ -1,1 +1,1 @@
-# Introduction-to-Shell-Scripting
+# Introduction to Linux Commands and Shell Scripting
