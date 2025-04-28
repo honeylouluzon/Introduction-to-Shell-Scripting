@@ -145,6 +145,78 @@ This repository contains a Jupyter Notebook (`linux.ipynb`) that demonstrates va
     - Command: `man bash`
     - Description: Displays the manual for the Bash shell.
 
+32. **Edit Shell Script**
+    - Commands:
+      - `nano -w linux.sh`
+      - `vim linux.sh`
+    - Description: Opens the `linux.sh` file in text editors for editing.
+
+33. **Change File Permissions**
+    - Commands:
+      - `chmod +x linux.sh`
+      - `chmod u-x linux.sh`
+      - `chmod go-wx linux.sh`
+      - `chmod g+w linux.sh`
+    - Description: Demonstrates changing file permissions for the `linux.sh` file.
+
+34. **List Files with Specific Patterns**
+    - Commands:
+      - `ls /bin/b*`
+      - `ls /bin/*r | head -n 20`
+    - Description: Lists files in `/bin` matching specific patterns.
+
+35. **Display File Metadata**
+    - Command: `ls -l linux.sh`
+    - Description: Displays detailed metadata for the `linux.sh` file.
+
+36. **View File Modification Date**
+    - Command: `date -r linux.sh`
+    - Description: Displays the last modification date of the `linux.sh` file.
+
+37. **Search Files**
+    - Command: `find /etc -name '*.txt'`
+    - Description: Searches for `.txt` files in the `/etc` directory.
+
+38. **View README File Content**
+    - Commands:
+      - `more README.md`
+      - `head README.md`
+      - `tail README.md`
+    - Description: Displays the content of the `README.md` file.
+
+39. **Count Words, Lines, and Characters in README**
+    - Commands:
+      - `wc README.md`
+      - `wc -l README.md`
+      - `wc -w README.md`
+      - `wc -c README.md`
+    - Description: Counts the number of words, lines, and characters in the `README.md` file.
+
+40. **Sort and Filter README Content**
+    - Commands:
+      - `sort README.md | head -n 10`
+      - `sort -r README.md | head -n 10`
+      - `uniq README.md | head -n 10`
+    - Description: Sorts and filters the content of the `README.md` file.
+
+41. **Search README for Specific Text**
+    - Commands:
+      - `grep ch README.md | head -n 10`
+      - `grep -i ch README.md | head -n 10`
+    - Description: Searches for specific text in the `README.md` file.
+
+42. **Cut and Paste File Content**
+    - Commands:
+      - `cut -c 2-9 README.md | head -n 10`
+      - `cut -d ' ' -f2 README.md | head -n 10`
+      - `paste first.txt last.txt`
+      - `paste -d "," first.txt last.txt`
+    - Description: Demonstrates cutting and pasting file content.
+
+43. **Remove Temporary Directory**
+    - Command: `rm -r copy`
+    - Description: Removes the `copy` directory.
+
 ## Access the Notebook
 
 [View the Notebook](linux.ipynb)
